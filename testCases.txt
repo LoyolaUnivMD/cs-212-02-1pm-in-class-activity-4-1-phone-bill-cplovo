@@ -1,1 +1,12 @@
-Test cases go here. 
+Test Case:
+
+1. User inputs: "Green" (valid package), data used: 3.5 GB
+Expected output: Total bill amount should be $64.99 (base cost $49.99 + extra data cost $7.5 + base additional cost $15), no discount applied.
+2. User inputs: "Blue" (valid package), data used: 6 GB
+Expected output: Total bill amount should be $100 (base cost $70 + extra data cost $20 + base additional cost $10), no discount applied.
+3. User inputs: "Purple" (valid package), data used: 10 GB
+Expected output: Total bill amount should be $184.95 (base cost $99.95 + base additional cost $15), no discount applied.
+4. User inputs: "Yellow" (invalid package)
+Expected output: "Invalid package name" message should be displayed.
+5. User inputs: "Green" (valid package), data used: 6 GB (eligible for discount)
+Expected output: Total bill amount should be $84.99 (base cost $49.99 + extra data cost $15 + base additional cost $15 - discount $20)
