@@ -1,1 +1,39 @@
-THINK before you code...
+Algorithm:
+
+1. Print a welcome message for the Phone Bill Activity.
+
+2. Prompt the user to enter the cellphone subscription package (Green, Blue, or Purple) in lowercase.
+
+3. Read the user input for the package name and convert it to lowercase.
+
+4. Check if the entered package name is valid:
+    - If the package is "green":
+        - Set base cost to $49.99.
+        - Set base data to 2 GB.
+        - Set base additional cost to $15.
+    - If the package is "blue":
+        - Set base cost to $70.
+        - Set base data to 4 GB.
+        - Set base additional cost to $10.
+    - If the package is "purple":
+        - Set base cost to $99.95.
+        - Set base data to unlimited.
+        - Set base additional cost to $15.
+    - If the package is none of the above, print "Invalid package name" and end the program.
+
+5. If the package is valid:
+    - Prompt the user to enter the amount of data used in GB.
+    - Read the user input for data used.
+
+6. Calculate the total cost based on the package:
+    - If the base data is unlimited (for Purple package):
+        - Set total cost to the base cost.
+    - Otherwise:
+        - Calculate the extra data used beyond the base data.
+        - Add it to the base cost along with the base additional cost.
+
+7. If the package is "green" and the total cost is $75 or more, apply a discount of $20.
+
+8. Print the total bill amount in currency format.
+
+9. End of the program.
